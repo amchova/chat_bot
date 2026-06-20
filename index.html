@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Чат-бот</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="chat">
+    <header class="chat__header">
+      <h1 class="chat__title">Чат-бот</h1>
+    </header>
+
+    <section class="chat__messages" id="messages"></section>
+
+    <form class="chat__form" id="chatForm">
+      <input
+        class="chat__input"
+        id="messageInput"
+        type="text"
+        placeholder="..."
+        autocomplete="off"
+      />
+
+      <button class="chat__send" id="sendButton" type="submit" disabled>
+        <span class="chat__send-icon">➤</span>
+      </button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
